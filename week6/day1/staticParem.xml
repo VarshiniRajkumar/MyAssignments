@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Static">
+	<parameter name="url" value="https://login.salesforce.com/"/>
+	<parameter name="username" value="bhuvanesh.moorthy@testleaf.com"/>
+	<parameter name="password" value="Leaf@2025"/>
+	
+	
+	<classes>
+      <class name="week6.day1.StaticParameterizationHA"/>
+    </classes>
+	
+  </test> <!-- Static -->
+</suite> <!-- Suite -->
